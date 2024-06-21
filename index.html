@@ -3,6 +3,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="assets/css/styles.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.45/moment-timezone-with-data-1970-2030.min.js"></script>
+
     <title>World Clock</title>
   </head>
   <body>
@@ -15,24 +18,25 @@
         <option value="durban">Durban</option>
         <option value="sydney">Sydney</option>
       </select>
-      <div class="city">
+      <div class="city" id="paris">
         <div>
           <h2>Paris</h2>
-          <div class="date">June 22nd 2024</div>
+          <div class="date"></div>
         </div>
 
-        <div class="time">00:25 <small>am</small></div>
+        <div class="time"></div>
       </div>
-      <div class="city">
+      <div class="city" id="los-angeles">
         <div>
           <h2>Los Angeles</h2>
-          <div class="date">June 22nd 2024</div>
+          <div class="date"></div>
         </div>
 
-        <div class="time">00:25 <small>am</small></div>
+        <div class="time"></div>
       </div>
     </div>
   </body>
+  <script src="assets/javaScript/index.js"></script>
   <footer>
     This is coded by <strong>Sinethemba Atalia</strong> and is open sourced on
     <a href="https://www.github.com/ataliasinethemba" target="_blank">Github</a>
